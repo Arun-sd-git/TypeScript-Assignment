@@ -1,0 +1,57 @@
+for inserting data -> studentdata
+form file -> studentform
+
+###################### validation code ######################
+
+        $this->validate($request, [
+            'name' => 'required',
+            'address' => 'required',
+            'email' => 'required',
+            'links' => 'required',
+            'notes' => 'required',
+            'company' => 'required',
+            'mobile' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
+            'mobile' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10 ',
+            'mobile' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10 ',
+        ]);
+
+
+
+______________ Pin to the sir , if got stuck __________________
+
+______________with 
+______________where
+______________where has
+
+fetch using relation 
+naming convention ------ Done
+soft delete only on numbers -> pin if get any problem ---- Done with some conflictions 
+WE CAN ALSO SHOW DELETED NUMBERS 
+code push on github-> 
+
+--> put in git ignore 
+no vendor folder 
+.env files 
+
+
+
+
+
+/c/Users/Arun chaudhary/.ssh/id_rs
+
+
+
+
+//????????????????????????????????????????????????????????????????????
+Create a NodeJS terminal application with the following functional requirements-
+ls command that returns the contents of the given directory
+cp command to copy one file to another
+mv command to move one file to another
+mkdir command to create a new directory
+rm command to delete a file
+pwd command to print the full path to the current working directory
+
+Non-functional requirements-
+Write the code in typescript and compile it to javascript
+There should be only one entry point i.e. index file
+Use git and push it to GitHub/GitLab
