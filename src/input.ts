@@ -5,6 +5,7 @@ console.clear();
 
 const opt = process.argv;
 
+console.log(opt)
 const command = opt[2];
 const filepath =
     opt[3] === undefined
