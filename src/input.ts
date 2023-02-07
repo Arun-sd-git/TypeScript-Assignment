@@ -13,7 +13,7 @@ const destination =
     opt[4] === undefined ? null : path.resolve(process.cwd(), opt[4]);
 
     console.log(
-        "Usage: node index.js [command] [filepath] [destination]\n\nCommands:\n\t-ls\t\tList directory contents\n\t-cp\t\tCopy file to destination\n\t-mv\t\tMove file to destination\n\t-mkdir\t\tCreate directory\n\t-rm\t\tRemove file\n\t-pwd\t\tPrint working directory"
+        "Usage: node index.js [command] [filepath] [destination]\nCommands:\n\t-ls\t\tList directory contents\n\t-cp\t\tCopy file to destination\n\t-mv\t\tMove file to destination\n\t-mkdir\t\tCreate directory\n\t-rm\t\tRemove file\n\t-pwd\t\tPrint working directory"
     );
 switch (command) {
     case "-ls":
@@ -43,8 +43,8 @@ switch (command) {
     case "-pwd":
         console.log(process.cwd());
         break;
-    default:
-        console.log("Please provide valid input");
+    // default:
+    //     console.log("Please provide valid input");
 }
 
 async function listDirContents(filepath: string) {
